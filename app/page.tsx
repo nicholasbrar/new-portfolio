@@ -12,15 +12,18 @@ export default function Page() {
         Currently, I'm at Dealer Shock building an AI-powered solutions for car dealerships to improve customer interactions and support sales. Outside of coding, I enjoy playing Geoguessr and chess competitively.
       </p>
       
-      <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
-      </p>
-      <div className="my-8">
-        <BlogPosts />
+      <div className="mb-8">
+        <h2 className="text-xl font-semibold mb-4">Experience</h2>
+        <ul>
+          <li className="mb-4">
+            <strong>Dealershock</strong> — AI Developer (Jan. 2025-Present)
+            <ul className="list-disc ml-6">
+              <li>abc.</li>
+              <li>xyz.</li>
+            </ul>
+          </li>
+          {}
+        </ul>
       </div>
     </section>
   )
