@@ -16,10 +16,17 @@ export default function Page() {
         <h2 className="text-xl font-semibold mb-4">Experience</h2>
         <ul>
           <li className="mb-4">
-            <strong>Dealershock</strong> — AI Developer (Jan. 2025-Present)
+            <strong>Dealer Shock</strong> — Software Engineer Intern (Jan. 2025-Present)
             <ul className="list-disc ml-6">
-              <li>abc.</li>
-              <li>xyz.</li>
+              <li>
+                I built our mobile app from the ground up using React Native and Expo, and automated VIN scanning with JavaScript, reducing manual data entry by 90%. 
+                I currently work on both mobile and web apps in Agile sprints, delivering regular updates and continuously improving the user experience.
+              </li>
+              <li>
+                I’m developing an AI-powered chatbot with multi-tenant architecture for car dealerships, ensuring secure data isolation between dealerships, and 
+                leveraging semantic parsing and NLP for natural language queries and real-time vehicle recommendations.
+              </li>
+
             </ul>
           </li>
           {}
