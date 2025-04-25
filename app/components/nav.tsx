@@ -8,7 +8,10 @@ const navItems = {
     name: 'blog',
   },
   'https://github.com/nicholasbrar': {
-    name: 'GitHub',
+    name: 'github',
+  },
+  'https://www.linkedin.com/in/nicholasbrar': {
+    name: 'linkedin',
   },
 }
 
